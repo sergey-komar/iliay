@@ -4,19 +4,607 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Clean</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-  <header class="header"></header>
-  <div class="wrapper">
-    <main class="main"></main>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top">
+          <a href="#" class="logo">
+            <img src="./images/icon/logo.svg" alt="">
+          </a>
+          <p class="header__text">
+            Химчистка мягкой мебели и напольных покрытий <span> г.Тула</span>
+          </p>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Срочный выезд</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Отзывы</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Прайс</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Бизнесу</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Франшиза</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__phone">
+            <a href="tel:+79606069944" class="header__phone-number">+7 (960) 606-99-44</a>
+            <p class="header__phone-text">Перезвоните мне</p>
+          </div>
+          <div class="header__icon">
+            <img src="./images/icon/whatsap.svg" alt="img" class="header__icon-img">
+            <img src="./images/icon/phone-2.svg" alt="img" class="header__icon-img">
+            <img src="./images/icon/telegram.svg" alt="img" class="header__icon-img">
+            <img src="./images/icon/phone-3.svg" alt="img" class="header__icon-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="header-block">
+        <div class="header-block__inner">
+          <h1 class="header-block__title">
+            Дышите чистым воздухом и живите
+            без пятен
+          </h1>
+          <div class="header-block__item">
+            <img src="./images/icon/soap.svg" alt="img" class="header-block__item-img">
+            <p class="header-block__item-text">
+              Химчистка мебели от 990 руб.
+            </p>
+          </div>
+          <div class="header-block__item">
+            <img src="./images/icon/fireworks.svg" alt="img" class="header-block__item-img">
+            <p class="header-block__item-text">
+              Безопасно для детей и питомцев.
+            </p>
+          </div>
+          <div class="header-block__item">
+            <img src="./images/icon/okey.svg" alt="img" class="header-block__item-img">
+            <p class="header-block__item-text">
+              Бесплатный выезд.
+            </p>
+          </div>
+          <div class="header-block__subtitle">
+            Получите скидку 10% на первую химчистку, заполнив форму.
+          </div>
+          <form action="#" class="header__form">
+            <input class="header__form-input" type="text" placeholder="Телефон" required>
+            <button type="submit" class="header__form-btn">Заказать со скидкой</button>
+          </form>
+          <p class="header__personal">
+            ️Нажимая кнопку «Заказать со скидкой», я даю свое согласие на обработку моих персональных данных.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="slider">
+      <div class="container">
+        <h2 class="slider__title">
+          Ваше покрытие станет чистым.<br> 
+          В любой ситуации
+        </h2>
+        <div class="slider-block">
+          <div class="slider-block__inner">
+            <div class="slider-block__item">
+              <div class="slider-block__item-title">Ситуация №1</div>
+              <div class="slider-block__item-img">
+                <img src="./images/slider/slide-1.png" alt="img">
+              </div>
+            </div>
+            <div class="slider-block__item">
+              <div class="slider-block__item-title">Ситуация №2</div>
+              <div class="slider-block__item-img">
+                <img src="./images/slider/slide-1.png" alt="img">
+              </div>
+            </div>
+            <div class="slider-block__item">
+              <div class="slider-block__item-title">Ситуация №3</div>
+              <div class="slider-block__item-img">
+                <img src="./images/slider/slide-1.png" alt="img">
+              </div>
+            </div>
+            <div class="slider-block__item">
+              <div class="slider-block__item-title">Ситуация №4</div>
+              <div class="slider-block__item-img">
+                <img src="./images/slider/slide-1.png" alt="img">
+              </div>
+            </div>
+            <div class="slider-block__item">
+              <div class="slider-block__item-title">Ситуация №5</div>
+              <div class="slider-block__item-img">
+                <img src="./images/slider/slide-1.png" alt="img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="cart">
+      <div class="container">
+        <div class="cart-block">
+          <div class="cart-block__item">
+            <img src="./images/picture/cart-1.png" alt="img" class="cart-block__item-img">
+            <div class="cart-block__item-title">Устраним пятно в день обращения</div>
+            <p class="cart-block__item-text">Выезд в течении 4 часов c момента вызова</p>
+          </div>
+          <div class="cart-block__item">
+            <img src="./images/picture/cart-2.png" alt="img" class="cart-block__item-img">
+            <div class="cart-block__item-title">Безопасно для детей и животных</div>
+            <p class="cart-block__item-text">
+              Можно находиться в квартире во время чистки
+            </p>
+          </div>
+          <div class="cart-block__item">
+            <img src="./images/picture/cart-3.png" alt="img" class="cart-block__item-img">
+            <div class="cart-block__item-title">Приедем повторно, если запах остался</div>
+            <p class="cart-block__item-text">Гарантируем положительный результат</p>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <section class="cleaning">
+      <div class="container">
+        <div class="cleaning-block">
+          <div class="cleaning-block__img">
+            <img src="./images/bg-1.png" alt="img">
+          </div>
+          <div class="cleaning-block__content">
+            <div class="cleaning-block__top">
+              <div class="cleaning-block__top-title title">
+                Не пытайтесь вывести пятно самостоятельно!
+              </div>
+              <div class="cleaning-block__top-item">
+                <div class="cleaning-block__top-img">
+                  <img src="./images/cleaning-1.png" alt="img">
+                </div>
+                <p class="cleaning-block__top-text">
+                  Домашняя химия увеличит загрязнение, повредит ткань и останется внутри изделия.
+                </p>
+              </div>
+              <div class="cleaning-block__top-item">
+                <div class="cleaning-block__top-img">
+                  <img src="./images/cleaning-2.png" alt="img">
+                </div>
+                <p class="cleaning-block__top-text">
+                  Это не решит проблему и может быть опасно для здоровья.
+                </p>
+              </div>
+            </div>
+            <div class="cleaning-block__bottom">
+              <div class="cleaning-block__bottom-title title">Уже пробовали очистить? </div>
+              <p class="cleaning-block__bottom-text">
+                Быстро устраним загрязнение по безопасной технологии.
+              </p>
+              <p class="cleaning-block__bottom-text">
+                Оставьте контакт — мы свяжемся 
+                с вами и приедем как можно скорее.
+              </p>
+              <form action="#" class="cleaning-block__form">
+                <input class="cleaning-block__form-input" type="text" placeholder="Телефон">
+                <button class="cleaning-block__form-btn">Заказать клининг срочно</button>
+              </form>
+              <p class="cleaning-block__personal">
+                ️Нажимая кнопку «Заказать со скидкой», я даю свое согласие на обработку моих персональных данных.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__inner">
+          <div class="reviews__block">
+            <div class="reviews__block-img">
+              <img src="./images/reviews.jpg" alt="img">
+            </div>
+  
+            <div class="reviews__block-content">
+              <div class="reviews__block-title title">
+                За год вы проводите 2700 часов на спальном матрасе
+                А на диване — 1600+ часов
+              </div>
+              <p class="reviews__block-text">
+                Заказывайте химчистку мягкой мебели ежегодно — ощутите новый уровень комфорта.
+              </p>
+            </div>
+          </div>
+          <div class="reviews__bottom">
+            <div class="reviews__bottom-item">
+              <div class="reviews__bottom-img">
+                <img src="./images/reviews/reviews-1.png" alt="img" class="reviews__bottom-img">
+              </div>
+              <p class="reviews__bottom-text">
+                Сохраните надолго ухоженный вид изделия
+              </p>
+            </div>
+            <div class="reviews__bottom-item">
+              <div class="reviews__bottom-img">
+                <img src="./images/reviews/reviews-2.jpg" alt="img" class="reviews__bottom-img">
+              </div>
+              <p class="reviews__bottom-text">
+                Продлите срок службы 
+                мягкой мебели
+              </p>
+            </div>
+            <div class="reviews__bottom-item">
+              <div class="reviews__bottom-img">
+                <img src="./images/reviews/reviews-3.jpg" alt="img" class="reviews__bottom-img">
+              </div>
+              <p class="reviews__bottom-text">
+                Дышите чистым воздухом, не бойтесь за здоровье кожи
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-slider">
+          <div class="reviews-slider__subtitle">Нам благодарны уже сотни клиентов</div>
+          <h3 class="reviews-slider__title title">
+            Результат вас так удивит, что вы тоже захотите оставить отзыв
+          </h3>
+          <div class="reviews-slider__inner">
+            <div class="reviews-slider__cart">
+              <div class="reviews-slider__cart-item">
+                <iframe width="260" height="360" src="https://www.youtube.com/embed/5KYGOD-kRMU" title="Отзыв от Клиента тулаклининг.рф Clean Tula" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="reviews-slider__cart-item">
+                <iframe width="260" height="360" src="https://www.youtube.com/embed/zi83Br4k2gY" title="Отзыв от клиента Clean Tula" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="reviews-slider__cart-item">
+                <iframe width="260" height="360" src="https://www.youtube.com/embed/IyjBNW1wfeM" title="Отзыв клиента Clean Tula" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="reviews-slider__cart-item">
+                <iframe width="260" height="360" src="https://www.youtube.com/embed/WMO83F9yZ9A" title="ОТЗЫВ ОТ КЛИЕНТКИ CLEAN TULA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              
+              <div class="reviews-slider__cart-item">
+                <iframe width="260" height="360" src="https://www.youtube.com/embed/R3pOYny5Fxo" title="ХИМЧИСТКА МЕБЕЛИ ТУЛА ОТЗЫВ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="reviews-slider__cart-item">
+                <iframe width="260" height="360" src="https://www.youtube.com/embed/V0jv2-idv3Y" title="ХИМЧИСТКА ДИВАНА ОТЗЫВ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+       
+
+          <p class="reviews-slider-text">
+            И ещё более 300 человек, смотри:
+          </p>
+          <div class="reviews-slider__social">
+            <a href="#" class="reviews-slider__social-item">
+              <img src="./images/reviews/ins.svg" alt="img" class="reviews-slider__social-img">
+              <p class="reviews-slider__social-text">Instagram</p>
+            </a>
+            <span class="reviews__span">и</span>
+            <a href="#" class="reviews-slider__social-item">
+              <img src="./images/reviews/yout.svg" alt="img" class="reviews-slider__social-img">
+              <p class="reviews-slider__social-text">YouTube</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <div class="price__title title"></div>
+        <div class="price-block">
+
+          <div class="price-block__one">
+            <div class="price-block__item price-block__item--line price-block__item--lineone">
+              <div class="price-block__wrapper">
+               <div class="price-block__item-img"></div>
+                <p class="price-block__item-text price-block__item-text--title">Диваны</p>
+              </div>
+              <div class="price-block__item-size">Размер</div>
+              <div class="price-block__item-price price-block__item-price--old">Цена</div>
+            </div>
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-1.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка прямого дивана</p>
+              </div>
+              <div class="price-block__item-size-wrapper">
+                <div class="price-block__item-size">100-140 см</div>
+                <div class="price-block__item-size">150-190 см</div>
+                <div class="price-block__item-size">200-240 см</div>
+                <div class="price-block__item-size">250-290 см</div>
+              </div>
+             <div class="price-block__item-price-wrapper">
+              <div class="price-block__item-price">от 1600 руб.</div>
+              <div class="price-block__item-price">от 1800 руб.</div>
+              <div class="price-block__item-price">от 2000 руб.</div>
+              <div class="price-block__item-price">от 2300 руб.</div>
+             </div>
+              
+            </div>
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-2.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка углового П-образного дивана</p>
+              </div>
+              <div class="price-block__item-size">300-340 см</div>
+              <div class="price-block__item-price">от 3200 руб.
+              </div>
+            </div>
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-3.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка кухонного уголка</p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 1800 руб.</div>
+            </div>
+          </div>
+
+
+          <div class="price-block__two">
+            <div class="price-block__item price-block__item--line">
+              <div class="price-block__wrapper">
+               <div class="price-block__item-img"></div>
+                <p class="price-block__item-text price-block__item-text--title">Матрасы</p>
+              </div>
+              <div class="price-block__item-size">Размер</div>
+              <div class="price-block__item-price price-block__item-price--old">Цена</div>
+            </div>
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-4.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка двуспального матраса с двух сторон</p>
+                <div class="price-block__item-size"></div>
+              </div>
+              <div class="price-block__item-price">от 2000 руб.</div>
+            </div>
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-5.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка односпального матраса с двух сторон</p>
+                <div class="price-block__item-size"></div>
+              </div>
+              <div class="price-block__item-price">от 1500 руб.</div>
+            </div>
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-6.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка детского матраса с двух сторон</p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 1000 руб.</div>
+            </div>
+          </div>
+          
+          <div class="price-block__three">
+            <div class="price-block__item price-block__item--line price-block__item--linethree">
+              <div class="price-block__wrapper">
+               <div class="price-block__item-img"></div>
+                <p class="price-block__item-text price-block__item-text--title">Ковры</p>
+              </div>
+              <div class="price-block__item-size">Размер</div>
+              <div class="price-block__item-price price-block__item-price--old">Цена</div>
+            </div>
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-7.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка ковролина 
+                  с коротким ворсом до 1 см</p>
+                <div class="price-block__item-size"></div>
+              </div>
+              <div class="price-block__item-price">от 150 руб./м²</div>
+            </div>
+          </div>
+
+          <div class="price-block__four">
+            
+            <div class="price-block__item price-block__item--line price-block__item--linefour">
+              <div class="price-block__wrapper">
+               <div class="price-block__item-img"></div>
+                <p class="price-block__item-text price-block__item-text--title">Другое</p>
+              </div>
+              <div class="price-block__item-size">Размер</div>
+              <div class="price-block__item-price price-block__item-price--old">Цена</div>
+            </div>
+
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-11.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка пуфа / банкетки</p>
+                <div class="price-block__item-size"></div>
+              </div>
+              <div class="price-block__item-price">от 400 руб.</div>
+            </div>
+
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-8.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка кресла</p>
+              </div>
+              <div class="price-block__item-size">50-60 см</div>
+              <div class="price-block__item-price">от 150 руб./м²</div>
+            </div>
+           
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-9.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка стула с мягкой спинкой</p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 250 руб.</div>
+            </div>
+
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-10.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка стула без спинки</p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 200 руб.</div>
+            </div>
+           
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-12.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Химчистка подушек</p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 150 руб.</div>
+            </div>
+
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-12.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Поддерживающая уборка</p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 50₽ м2</div>
+            </div>
+
+            
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-12.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Генеральная уборка </p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 120₽ м2</div>
+            </div>
+
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-12.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Уборка после ремонта </p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price"> от 170₽ м2</div>
+            </div>
+
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-12.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Уборка в производственных помещениях </p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price"> от 220₽ м2</div>
+            </div>
+
+            <div class="price-block__item">
+              <div class="price-block__wrapper">
+                <img src="./images/price/price-12.svg" alt="img" class="price-block__item-img">
+                <p class="price-block__item-text">Мытьё окон и витрин </p>
+              </div>
+              <div class="price-block__item-size"></div>
+              <div class="price-block__item-price">от 500₽</div>
+            </div>
+             
+
+          </div>
+          
+        </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="photo">
+      <div class="container">
+          <div class="photo-block">
+            <div class="photo-block__cart">
+              <div class="photo-block__cart-title title">Оценим чистку по фото 
+                за 10 минут</div>
+              <p class="photo-block__cart-text">Сделайте фото загрязнения и отправьте его нам — мы посчитаем точную стоимость!</p>
+            </div>
+            <div class="photo-block__social">
+              <div class="photo-block__social-img">
+                <img src="./images/photo/photo-1.png" alt="img">
+              </div>
+              <div class="photo-block__social-img">
+                <img src="./images/photo/photo-2.png" alt="img">
+              </div>
+              <div class="photo-block__social-img">
+                <img src="./images/photo/photo-3.png" alt="img">
+              </div>
+            </div>
+            <div class="photo-block__text">
+              Выберите, куда удобно отправить
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <div class="play">
+      <div class="container">
+        <div class="play-block">
+          <div class="play-block__popup">
+            <a href="https://youtu.be/5KYGOD-kRMU" class="play-block__popup-link">
+              <img src="./images/photo/Polygon.png" alt="img" class="play-block__popup-img">
+            </a>
+          </div>
+  
+          <div class="play-block__content">
+            <div class="play-block__content-subtitle">Для бизнеса:</div>
+            <div class="play-block__content-title title">Приведем в порядок 
+              ваше помещение в любое время суток</div>
+            <div class="play-block__inner">
+              <div class="play-block__item">
+                <div class="play-block__item-img">
+                  <img src="./images/icon/soap.svg" alt="img">
+                </div>
+                <p class="play-block__item-text">
+                  Профессиональное оборудование и команда.
+                </p>
+              </div>
+              <div class="play-block__item">
+                <div class="play-block__item-img">
+                  <img src="./images/icon/fireworks.svg" alt="img">
+                </div>
+                <p class="play-block__item-text">Наличная и безналичная оплата.</p>
+              </div>
+              <div class="play-block__item">
+                <div class="play-block__item-img">
+                  <img src="./images/icon/okey.svg" alt="img">
+                </div>
+                <p class="play-block__item-text">Химчистка в любой день и время.</p>
+              </div>
+            </div>
+            <button class="play-block__btn">Отправить КП на почту</button>
+           
+          </div>
+         
+        </div>
+        <p class="play-block-text">
+          При необходимости предварительной оценки 
+          стоимости работ на месте, выезд менеджера 
+          и пробная химчистка - бесплатно!
+        </p>
+      </div>
+     
+    </div>
+  </main>
     <footer class="footer"></footer>
-  </div>
+  
 
-
+    
 
   <script src="js/main.min.js"></script>
 </body>

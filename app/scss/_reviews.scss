@@ -1,0 +1,115 @@
+.reviews{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.reviews__block {
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom:  2px solid #BDD5FF;;
+}
+
+.reviews__block-title {
+    margin-bottom: 20px;
+    max-width: 560px;
+    color: $blue;
+}
+.reviews__block-text {
+    font-weight: 500;
+    color: #75849E;
+}
+.reviews__bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.reviews__bottom-item {
+    width: 340px;
+    display: flex;
+}
+
+.reviews__bottom-text {
+    margin-left: 20px;
+    color: #75849E;
+}
+
+
+
+// reviews-slider
+.reviews-slider {
+    padding-top: 200px;
+}
+.reviews-slider__subtitle {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #75849E;
+}
+.reviews-slider__title {
+    position: relative;
+    margin-bottom: 100px;
+    max-width: 678px;
+    line-height: 130%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: $blue;
+}
+.reviews-slider__title::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../images/reviews/pencil.svg') no-repeat center;
+    bottom: 13px;
+    right: 10px;
+}
+.slick-reviews-left{
+    background: url('../images/slider/arrows-left.svg') no-repeat center;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #EAEDF8;
+    border-radius: 50%;
+    position: absolute;
+    top: -85px;
+    right: 270px;
+}
+.slick-reviews-rigth{
+    background: url('../images/slider/arrows-rigth.svg') no-repeat center;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: #EAEDF8;
+    position: absolute;
+    top: -85px;
+    right: 73px;
+}
+
+.reviews-slider__cart-item {
+    width: 270px;
+}
+.reviews-slider-text {
+    margin-top: 56px;
+    margin-bottom: 20px;
+    color:  #75849E;
+    text-align: center;
+}
+.reviews-slider__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-slider__social-item{
+    display: flex;
+    justify-content: space-evenly;
+    width: 170px;
+    padding: 10px;
+    margin-left: 30px;
+    background: #EAEDF8;
+    border-radius: 20px;
+}
+.reviews__span{
+    margin-left: 20px;
+}

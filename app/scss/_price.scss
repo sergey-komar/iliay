@@ -1,0 +1,104 @@
+.price{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.price-block__item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.price-block__wrapper{
+    display: flex;
+}
+.price-block__item-img {
+    width: 54px;
+    height: 49px;
+}
+.price-block__item-text {
+    margin-left: 40px;
+    width: 260px;
+    font-weight: 600;
+    color:#191919;
+}
+.price-block__item-text.price-block__item-text--title{
+    color:#1265FA;
+}
+.price-block__item{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #BDD5FF;
+}
+.price-block__item:first-child{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.price-block__item.price-block__item--line{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #1265FA;
+    position: relative;
+}
+.price-block__item.price-block__item--line::before{
+    position: absolute;
+    content: '02';
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    color:#1265FA;
+    font-family: sans-serif;
+}
+.price-block__item-price.price-block__item-price--old{
+    text-decoration: none;
+}
+.price-block__item-size {
+    width: 130px;
+}
+.price-block__item-price {
+    width: 170px;
+    text-decoration: underline;
+}
+.price-block__two{
+    margin-top: 90px;
+}
+.price-block__three{
+    margin-top: 70px;
+}
+.price-block__item.price-block__item--linethree{
+    position: relative;
+}
+.price-block__item.price-block__item--linethree::before{
+    position: absolute;
+    content: '03';
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    color:#1265FA;
+    font-family: sans-serif;
+}
+.price-block__four{
+    margin-top: 80px;
+}
+.price-block__item.price-block__item--linefour{
+    position: relative;
+}
+.price-block__item.price-block__item--linefour::before{
+    position: absolute;
+    content: '04';
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    color:#1265FA;
+    font-family: sans-serif;
+}
+.price-block__item.price-block__item--lineone{
+    position: relative;
+}
+.price-block__item.price-block__item--lineone::before{
+    position: absolute;
+    content: '01';
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    color:#1265FA;
+    font-family: sans-serif;
+}

@@ -1,0 +1,40 @@
+.photo{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url('../images/photo/bg-photo.jpg') no-repeat top;
+    background-size: cover;
+}
+.container {
+}
+.photo-block {
+}
+.photo-block__cart {
+    max-width: 540px;
+    margin-top: 90px;
+    padding: 40px;
+    padding-bottom: 70px;
+    background-color: $white;
+    border-radius: 45px;
+}
+.photo-block__cart-title {
+    width: 500px;
+    margin-bottom: 10px;
+    line-height: 130%;
+    color: $blue;
+}
+.photo-block__cart-text {
+    width: 360px;
+}
+.photo-block__social {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.photo-block__social-img {
+}
+.photo-block__text {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}

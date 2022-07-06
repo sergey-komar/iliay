@@ -1,25 +1,34 @@
 html,
 body {
-	height: 100%;
+	height: 100%;/*sticky footer*/
+	display: flex;/*sticky footer*/
+	flex-direction: column;/*sticky footer*/
+	margin: 0;
+	font-family: 'Raleway';
+	font-size: 20px;
+	line-height: 140%;
+	font-weight: 400;
+	color: #75849E;
 }
-
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
+body > * {
+	flex-shrink: 0;
+	/*sticky footer*/
+  }
+.footer{
+	margin-top: auto;/*sticky footer*/
 }
-
-.main {
-	flex: 1 0 auto;
+button{
+	cursor: pointer;
 }
-.footer {
-	flex: 0 0 auto;
-}
-
 .container{
-  max-width: 1200px;
+  max-width:1190px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.title{
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 130%;;
 }
 
 
