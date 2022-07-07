@@ -1,0 +1,133 @@
+.slick-after-left{
+    background: url('../images/slider/arrows-left.svg') no-repeat center;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #EAEDF8;
+    border-radius: 50%;
+    position: absolute;
+    top: -85px;
+    right: 385px;
+}
+.slick-after-rigth{
+    background: url('../images/slider/arrows-rigth.svg') no-repeat center;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: #EAEDF8;
+    position: absolute;
+    top: -85px;
+    right: 200px;
+}
+.after{
+    padding-top: 100px;
+}
+
+.after__title {
+    margin-bottom: 10px;
+    line-height: 130%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.after__subtitle {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.after__bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+.after__bottom-btn {
+    width: 360px;
+    height: 60px;
+    background: linear-gradient(180deg, #F8A100 0%, #EC6900 100%);
+    border: none;
+    border-radius: 79px;
+    font-weight: 500;
+    text-align: center;
+    color: $white;
+}
+.after__bottom-content {
+    margin-left: 130px;
+    margin-top: -70px;
+    width: 300px;
+}
+.after__bottom-text {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #191919;
+}
+.after__bottom-social {
+    display: flex;
+    column-gap: 15px;
+}
+
+.clean {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #E5E5E5;
+}
+
+.clean-block {
+    display: flex;
+}
+.clean-block__content {
+    width: 588px;
+}
+.clean__subtitle {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.clean__title {
+    width: 420px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 45px;
+}
+
+.clean-block__popup {
+    background: url('../images/slider/slide-1.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px;
+    border: 1px solid $blue;
+}
+
+.clean__bottom {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.clean__bottom-item {
+    width: 230px;
+    padding: 15px;
+    background-color: $white;
+    border-radius: 30px;
+}
+.clean__bottom-img {
+    margin-bottom: 20px;
+}
+.clean__bottom-text {
+    font-weight: 500;
+}
+.clean__bottom-btn {
+    width: 340px;
+    height: 204px;
+    border: none;
+    background: linear-gradient(180deg, #F8A101 0%, #ED6A01 100%);
+    border-radius: 100px;
+    color: $white;
+    font-weight: 500;
+    text-align: center;
+}
